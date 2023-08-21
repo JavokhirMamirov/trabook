@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/no-unknown-property */
 import PlanePng from "../assets/Element.svg"
 import AboutListSvg from "../assets/about_list.svg"
 import AboutValletSvg from "../assets/about_vallet.svg"
