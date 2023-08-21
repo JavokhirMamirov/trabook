@@ -15,7 +15,8 @@ export default {
       },
       boxShadow:{
         '3xl': '0px 2px 80px 2px rgba(0, 0, 0, 0.06)',
-        'card-a': '14px 24px 72px 0px rgba(102, 102, 102, 0.10)'
+        'card-a': '14px 24px 72px 0px rgba(102, 102, 102, 0.10)',
+        'card-d': '0px 16px 80px 0px rgba(254, 147, 94, 0.20)',
       },
       colors:{
         Paragraph:"rgba(102, 102, 102, 1)",

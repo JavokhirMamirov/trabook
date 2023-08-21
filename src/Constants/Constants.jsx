@@ -35,5 +35,21 @@ export const DestData = [
         "price":"$850",
         "img":CarDest4
     },
+    {
+        "city":"Paris",
+        "country":"France",
+        "raiting":"4.4",
+        "dis_price":"$699",
+        "price":"$599",
+        "img":CarDest3
+    },
+    {
+        "city":"Firenze",
+        "country":"Italy",
+        "raiting":"4.5",
+        "dis_price":"$850",
+        "price":"$750",
+        "img":CarDest2
+    },
     
 ]
