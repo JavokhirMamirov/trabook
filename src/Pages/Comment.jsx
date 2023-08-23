@@ -1,7 +1,6 @@
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi"
-import Avatar from "../assets/avatar.png";
 import Carousel from 'react-spring-3d-carousel';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { config } from "react-spring";
 import CommentCard from "../Components/CommentCard";
 import { v4 as uuidv4 } from "uuid";
@@ -25,8 +24,8 @@ function Comment() {
   const table = Slides.map((element, index) => {
     return { ...element, onClick: () => setGoToSlide(index) };
   });
-  const [offsetRadius, setOffsetRadius] = useState(2);
-  const [showArrows, setShowArrows] = useState(false);
+  const [offsetRadius] = useState(2);
+  const [showArrows] = useState(false);
   const [goToSlide, setGoToSlide] = useState(null);
   const [cards] = useState(table);
   return (

@@ -14,8 +14,8 @@ function Blog() {
   
   
   return (
-    <div className='w-full bg-[#FEFCFB] flex flex-col gap-16 justify-center items-center pb-28'>
-      <div className='w-width-1170 flex flex-col mt-28'>
+    <div className='w-full bg-[#FEFCFB] flex flex-col gap-16 justify-center items-center'>
+      <div className='w-width-1170 flex flex-col mt-28 mb-[350px]'>
         <div className='flex flex-col justify-center items-center gap-6'>
           <span className='font-Volkhov text-PrimaryB font-bold text-5xl relative'>Get update with <span className='text-PrimaryO'>latest blog</span></span>
         </div>
